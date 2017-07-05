@@ -3,6 +3,22 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <h3>CREATE A NEW GIST AND SEE YOUR FULL LIST OF GISTS</h3>
+  <form id="get-gists">
+    <input type="text" name="username" placeholder="username" id="username">
+    <input type="text" name="token" placeholder="token" id="token">
+    <input type="text" placeholder="filename" id="file_name">
+    <input type="text" placeholder="content" id="content">
+    <input type="text" placeholder="description" id="description">
+    <input type="submit" name="submit" value="submit">
+  </form>
+
+  <div id="gists">
+    <ul>
+
+    </ul>
+  </div>
+
 
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/github_client.js"></script>
